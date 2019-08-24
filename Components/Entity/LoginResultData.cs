@@ -21,7 +21,7 @@
 
 using Newtonsoft.Json;
 
-namespace Dnn.AuthServices.Jwt.Components.Entity
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity
 {
     [JsonObject]
     public class LoginResultData

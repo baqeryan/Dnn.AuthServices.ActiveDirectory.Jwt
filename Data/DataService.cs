@@ -22,12 +22,12 @@
 using System;
 using System.Collections.Generic;
 using System.Web.Caching;
-using Dnn.AuthServices.Jwt.Components.Entity;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity;
 using DotNetNuke.Common.Utilities;
 using DotNetNuke.ComponentModel;
 using DotNetNuke.Data;
 
-namespace Dnn.AuthServices.Jwt.Data
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Data
 {
     /// -----------------------------------------------------------------------------
     /// <summary>

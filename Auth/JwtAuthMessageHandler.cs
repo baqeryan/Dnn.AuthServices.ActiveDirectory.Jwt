@@ -20,17 +20,14 @@
 #endregion
 
 using System;
-using System.Linq;
 using System.Net.Http;
-using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading;
-using Dnn.AuthServices.Jwt.Components.Common.Controllers;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Common.Controllers;
 using DotNetNuke.Instrumentation;
 using DotNetNuke.Web.Api.Auth;
-using DotNetNuke.Web.ConfigSection;
 
-namespace Dnn.AuthServices.Jwt.Auth
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Auth
 {
     /// <summary>
     /// This class implements Json Web Token (JWT) authentication scheme.

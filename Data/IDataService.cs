@@ -20,9 +20,9 @@
 #endregion
 
 using System.Collections.Generic;
-using Dnn.AuthServices.Jwt.Components.Entity;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity;
 
-namespace Dnn.AuthServices.Jwt.Data
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Data
 {
     public interface IDataService
     {

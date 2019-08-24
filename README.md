@@ -6,8 +6,20 @@ Instead of passing the plain login credentials in the request body(used by DNN J
 
 ## How to use this
 If you need to use this modified version of DNN JWT Auth service, First install the default DNN JWT Auth service by following
-[these steps](http://www.dnnsoftware.com/docs/administrators/jwt/jwt-user-credentials.html) then replace the `Dnn.AuthServices.Jwt.dll` from `bin` with the dll file that you will get from the build of this repo.
+[these steps](http://www.dnnsoftware.com/docs/administrators/jwt/jwt-user-credentials.html) then move the `Dnn.AuthServices.ActiveDirectory.Jwt.dll` to `bin` with the dll file that you will get from the build of this repo.
 
+in web.config replace
+```
+<add name="JWTAuth" type="Dnn.AuthServices.ActiveDirectory.Jwt.Auth.JwtAuthMessageHandler, Dnn.AuthServices.ActiveDirectory.Jwt" enabled="true" defaultInclude="false" forceSSL="true" />
+```
+from
+```
+<add name="JWTAuth" type="Dnn.AuthServices.ActiveDirectory.Jwt.Auth.JwtAuthMessageHandler, Dnn.AuthServices.ActiveDirectory.Jwt" enabled="true" defaultInclude="false" forceSSL="true" />
+```
+add new key into '<appSettings>'
+```
+<add key="ActiveDirectory.Jwt.DomainName" value="MyDomainName" />
+```
 Sample Login request: 
 
 ```

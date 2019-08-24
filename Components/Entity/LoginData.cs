@@ -21,7 +21,7 @@
 
 using Newtonsoft.Json;
 
-namespace Dnn.AuthServices.Jwt.Components.Entity
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity
 {
     /// <summary>
     /// Structure used for the Login to obtain a Json Web Token (JWT).

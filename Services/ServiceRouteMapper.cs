@@ -23,7 +23,7 @@
 
 using DotNetNuke.Web.Api;
 
-namespace Dnn.AuthServices.Jwt.Services
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Services
 {
     public class ServiceRouteMapper : IServiceRouteMapper
     {

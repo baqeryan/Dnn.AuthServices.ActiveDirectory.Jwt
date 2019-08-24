@@ -19,16 +19,14 @@
 // DEALINGS IN THE SOFTWARE.
 #endregion
 
-using System;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Web.Http;
-using Dnn.AuthServices.Jwt.Components.Common.Controllers;
-using Dnn.AuthServices.Jwt.Components.Entity;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Common.Controllers;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity;
 using DotNetNuke.Web.Api;
 using Newtonsoft.Json;
 
-namespace Dnn.AuthServices.Jwt.Services
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Services
 {
     [DnnAuthorize(AuthTypes = "JWT")]
     public class MobileController : DnnApiController

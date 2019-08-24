@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dnn.AuthServices.Jwt.Components.Entity
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity
 {
     [Serializable]
     public class PersistedToken

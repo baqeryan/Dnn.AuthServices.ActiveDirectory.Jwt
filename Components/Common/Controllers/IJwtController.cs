@@ -20,10 +20,10 @@
 #endregion
 
 using System.Net.Http;
-using Dnn.AuthServices.Jwt.Components.Entity;
+using Dnn.AuthServices.ActiveDirectory.Jwt.Components.Entity;
 using DotNetNuke.Entities.Users;
 
-namespace Dnn.AuthServices.Jwt.Components.Common.Controllers
+namespace Dnn.AuthServices.ActiveDirectory.Jwt.Components.Common.Controllers
 {
     public interface IJwtController
     {

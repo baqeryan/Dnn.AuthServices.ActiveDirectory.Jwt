@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.AuthServices.Jwt", "Dnn.AuthServices.Jwt.csproj", "{3B2FA1D9-EC7D-4CEC-8FF5-A7700CF5CB40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.AuthServices.ActiveDirectory.Jwt", "Dnn.AuthServices.ActiveDirectory.Jwt.csproj", "{3B2FA1D9-EC7D-4CEC-8FF5-A7700CF5CB40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5677E186-36B4-4058-A496-2BEA6F3C6CAA}
 	EndGlobalSection
 EndGlobal
