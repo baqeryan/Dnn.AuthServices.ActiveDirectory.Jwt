@@ -16,7 +16,7 @@ from
 ```
 <add name="JWTAuth" type="Dnn.AuthServices.ActiveDirectory.Jwt.Auth.JwtAuthMessageHandler, Dnn.AuthServices.ActiveDirectory.Jwt" enabled="true" defaultInclude="false" forceSSL="true" />
 ```
-add new key into 'appSettings'
+add new key into `<appSettings>`
 ```
 <add key="ActiveDirectory.Jwt.DomainName" value="MyDomainName" />
 ```
